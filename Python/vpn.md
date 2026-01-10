@@ -1,1 +1,1 @@
-https://connect.alpha-network.org/M4ehASsF0j9SkBAp
+https://redirect.sub-link.ru/?url=happ://add/https://connect.alpha-network.org/xBGXQDKv0bQ-a4BA
