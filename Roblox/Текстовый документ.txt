@@ -1,0 +1,22 @@
+local part = script.Parent
+local isActivated = false
+part.Touched:Connect(function(hit)
+	local charecter = hit.Parent
+	local humanoid = charecter:FindFirstChild("Humanoid")
+	if not humanoid then return end
+	
+	if not  isActivated then
+		isActivated = true
+		local fire = Instance.new("Fire")
+		fire.Size = 30
+		fire.Parent = part
+		wait(1)
+		part.Anchored = false
+		local spin = Instance.new("BodyAngularVelocity")
+		spin.MaxTorque = Vector3.new(400000,400000,400000)
+		spin.AngularVelocity = Vector3.new(0,10,0)
+		spin.Parent = part
+	else
+		humanoid:TakeDamage(1)
+	end
+end)
