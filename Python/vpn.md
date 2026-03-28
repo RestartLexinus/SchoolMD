@@ -1,1 +1,1 @@
-https://redirect.sub-link.ru/?url=happ://add/https://connect.alpha-network.org/FWy09zS6e8XtUxc21
+https://connect.stealthsurf.app/to/29dd5a46d995de178336b428101
